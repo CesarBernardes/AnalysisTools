@@ -1,0 +1,3 @@
+root://osg-se.sprace.org.br//store/user/caber/HIMinimumBias1/HeavyIon_Forest_XeXe_5p44TeV_MB_PD_1_out/221019_004207/0000/HiForestAOD_1.root
+root://osg-se.sprace.org.br//store/user/caber/HIMinimumBias1/HeavyIon_Forest_XeXe_5p44TeV_MB_PD_1_out/221019_004207/0000/HiForestAOD_2.root
+root://osg-se.sprace.org.br//store/user/caber/HIMinimumBias1/HeavyIon_Forest_XeXe_5p44TeV_MB_PD_1_out/221019_004207/0000/HiForestAOD_3.root
