@@ -1,0 +1,838 @@
+# Conditions read from  CMS_CONDITIONS  via FrontierProd 
+21-Dec-2017 19:54:47 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_1.root
+[2017-12-21 19:54:47.975016 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_1.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:54:47 CET pre-events
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_1.root.
+%MSG
+[2017-12-21 19:54:47.976717 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_1.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:54:47 CET pre-events
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_1.root?tried=.
+%MSG
+21-Dec-2017 19:54:47 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_1.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 19:55:00 CET pre-events
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 19:55:01 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_1.root
+Begin processing the 1st record. Run 259152, Event 149516785, LumiSection 135 at 21-Dec-2017 19:55:30.387 CET
+Begin processing the 1001st record. Run 259152, Event 150657965, LumiSection 136 at 21-Dec-2017 19:55:37.419 CET
+Begin processing the 2001st record. Run 259152, Event 150374491, LumiSection 136 at 21-Dec-2017 19:55:42.377 CET
+21-Dec-2017 19:55:42 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_1.root
+21-Dec-2017 19:55:42 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_2.root
+[2017-12-21 19:55:42.634740 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_2.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:55:42 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_2.root.
+%MSG
+[2017-12-21 19:55:42.635775 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_2.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:55:42 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_2.root?tried=.
+%MSG
+21-Dec-2017 19:55:42 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_2.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 19:55:54 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 19:55:55 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_2.root
+Begin processing the 3001st record. Run 259152, Event 151835684, LumiSection 137 at 21-Dec-2017 19:56:05.061 CET
+Begin processing the 4001st record. Run 259152, Event 152542181, LumiSection 138 at 21-Dec-2017 19:56:08.091 CET
+Begin processing the 5001st record. Run 259152, Event 153023977, LumiSection 138 at 21-Dec-2017 19:56:11.652 CET
+Begin processing the 6001st record. Run 259152, Event 154321323, LumiSection 139 at 21-Dec-2017 19:56:16.851 CET
+Begin processing the 7001st record. Run 259152, Event 153442482, LumiSection 139 at 21-Dec-2017 19:56:19.899 CET
+21-Dec-2017 19:56:19 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_2.root
+21-Dec-2017 19:56:19 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_3.root
+[2017-12-21 19:56:19.984086 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_3.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:56:19 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_3.root.
+%MSG
+[2017-12-21 19:56:19.985034 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_3.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:56:19 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_3.root?tried=.
+%MSG
+21-Dec-2017 19:56:19 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_3.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 19:56:31 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 19:56:32 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_3.root
+Begin processing the 8001st record. Run 259152, Event 155196537, LumiSection 140 at 21-Dec-2017 19:56:41.433 CET
+Begin processing the 9001st record. Run 259152, Event 156605405, LumiSection 141 at 21-Dec-2017 19:56:45.365 CET
+Begin processing the 10001st record. Run 259152, Event 155630146, LumiSection 141 at 21-Dec-2017 19:56:50.273 CET
+Begin processing the 11001st record. Run 259152, Event 157227633, LumiSection 142 at 21-Dec-2017 19:56:55.222 CET
+21-Dec-2017 19:56:58 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_3.root
+21-Dec-2017 19:56:58 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_4.root
+[2017-12-21 19:56:58.662970 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_4.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:56:58 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_4.root.
+%MSG
+[2017-12-21 19:56:58.663692 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_4.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:56:58 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_4.root?tried=.
+%MSG
+21-Dec-2017 19:56:58 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_4.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 19:57:10 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 19:57:11 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_4.root
+Begin processing the 12001st record. Run 259152, Event 158036348, LumiSection 143 at 21-Dec-2017 19:57:18.281 CET
+Begin processing the 13001st record. Run 259152, Event 158418353, LumiSection 143 at 21-Dec-2017 19:57:22.709 CET
+Begin processing the 14001st record. Run 259152, Event 160028092, LumiSection 144 at 21-Dec-2017 19:57:27.951 CET
+Begin processing the 15001st record. Run 259152, Event 159616126, LumiSection 144 at 21-Dec-2017 19:57:33.859 CET
+Begin processing the 16001st record. Run 259152, Event 160278965, LumiSection 145 at 21-Dec-2017 19:57:39.595 CET
+21-Dec-2017 19:57:44 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_4.root
+21-Dec-2017 19:57:44 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_5.root
+[2017-12-21 19:57:44.461647 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_5.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:57:44 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_5.root.
+%MSG
+[2017-12-21 19:57:44.462508 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_5.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:57:44 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_5.root?tried=.
+%MSG
+21-Dec-2017 19:57:44 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_5.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 19:57:56 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 19:57:57 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_5.root
+Begin processing the 17001st record. Run 259152, Event 162234437, LumiSection 146 at 21-Dec-2017 19:58:05.129 CET
+Begin processing the 18001st record. Run 259152, Event 161312458, LumiSection 146 at 21-Dec-2017 19:58:16.854 CET
+Begin processing the 19001st record. Run 259152, Event 162417773, LumiSection 147 at 21-Dec-2017 19:58:23.951 CET
+Begin processing the 20001st record. Run 259152, Event 164107283, LumiSection 148 at 21-Dec-2017 19:58:29.885 CET
+21-Dec-2017 19:58:33 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_5.root
+21-Dec-2017 19:58:33 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_6.root
+[2017-12-21 19:58:33.701595 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_6.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:58:33 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_6.root.
+%MSG
+[2017-12-21 19:58:33.702567 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_6.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:58:33 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_6.root?tried=.
+%MSG
+21-Dec-2017 19:58:33 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_6.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 19:58:45 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 19:58:45 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_6.root
+Begin processing the 21001st record. Run 259152, Event 164860751, LumiSection 149 at 21-Dec-2017 19:58:51.653 CET
+Begin processing the 22001st record. Run 259157, Event 741639, LumiSection 1 at 21-Dec-2017 19:58:56.356 CET
+Begin processing the 23001st record. Run 259157, Event 2694840, LumiSection 3 at 21-Dec-2017 19:59:01.788 CET
+Begin processing the 24001st record. Run 259157, Event 2398518, LumiSection 3 at 21-Dec-2017 19:59:07.275 CET
+21-Dec-2017 19:59:08 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_6.root
+21-Dec-2017 19:59:08 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_10.root
+[2017-12-21 19:59:08.879937 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_10.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:59:08 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_10.root.
+%MSG
+[2017-12-21 19:59:08.881131 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_10.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:59:08 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_10.root?tried=.
+%MSG
+21-Dec-2017 19:59:08 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_10.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 19:59:20 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 19:59:20 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_10.root
+Begin processing the 25001st record. Run 259157, Event 12640010, LumiSection 12 at 21-Dec-2017 19:59:29.933 CET
+Begin processing the 26001st record. Run 259157, Event 13796146, LumiSection 13 at 21-Dec-2017 19:59:34.958 CET
+Begin processing the 27001st record. Run 259158, Event 624268, LumiSection 1 at 21-Dec-2017 19:59:40.834 CET
+21-Dec-2017 19:59:43 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_10.root
+21-Dec-2017 19:59:43 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_100.root
+[2017-12-21 19:59:43.878193 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_100.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:59:43 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_100.root.
+%MSG
+[2017-12-21 19:59:43.879195 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_100.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 19:59:43 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_100.root?tried=.
+%MSG
+21-Dec-2017 19:59:43 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_100.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 19:59:55 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 19:59:56 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_100.root
+Begin processing the 28001st record. Run 259163, Event 172178515, LumiSection 147 at 21-Dec-2017 20:00:04.793 CET
+Begin processing the 29001st record. Run 259163, Event 175748921, LumiSection 151 at 21-Dec-2017 20:00:10.441 CET
+Begin processing the 30001st record. Run 259163, Event 177126740, LumiSection 152 at 21-Dec-2017 20:00:16.333 CET
+21-Dec-2017 20:00:19 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_100.root
+21-Dec-2017 20:00:19 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_101.root
+[2017-12-21 20:00:19.106338 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_101.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:00:19 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_101.root.
+%MSG
+[2017-12-21 20:00:19.107540 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_101.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:00:19 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_101.root?tried=.
+%MSG
+21-Dec-2017 20:00:19 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_101.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:00:30 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:00:30 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_101.root
+Begin processing the 31001st record. Run 259163, Event 179113154, LumiSection 153 at 21-Dec-2017 20:00:39.323 CET
+Begin processing the 32001st record. Run 259163, Event 179540834, LumiSection 154 at 21-Dec-2017 20:00:44.954 CET
+Begin processing the 33001st record. Run 259163, Event 181253625, LumiSection 155 at 21-Dec-2017 20:00:50.978 CET
+21-Dec-2017 20:00:54 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_101.root
+21-Dec-2017 20:00:54 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_102.root
+[2017-12-21 20:00:54.245591 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_102.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:00:54 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_102.root.
+%MSG
+[2017-12-21 20:00:54.246577 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_102.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:00:54 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_102.root?tried=.
+%MSG
+21-Dec-2017 20:00:54 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_102.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:01:05 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:01:05 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_102.root
+Begin processing the 34001st record. Run 259163, Event 182485388, LumiSection 156 at 21-Dec-2017 20:01:13.505 CET
+Begin processing the 35001st record. Run 259163, Event 182878107, LumiSection 157 at 21-Dec-2017 20:01:19.483 CET
+Begin processing the 36001st record. Run 259163, Event 184005643, LumiSection 158 at 21-Dec-2017 20:01:25.171 CET
+21-Dec-2017 20:01:27 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_102.root
+21-Dec-2017 20:01:27 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_103.root
+[2017-12-21 20:01:27.684316 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_103.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:01:27 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_103.root.
+%MSG
+[2017-12-21 20:01:27.685240 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_103.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:01:27 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_103.root?tried=.
+%MSG
+21-Dec-2017 20:01:27 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_103.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:01:39 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:01:39 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_103.root
+Begin processing the 37001st record. Run 259163, Event 185752058, LumiSection 159 at 21-Dec-2017 20:01:48.838 CET
+Begin processing the 38001st record. Run 259163, Event 186283632, LumiSection 160 at 21-Dec-2017 20:01:55.035 CET
+Begin processing the 39001st record. Run 259163, Event 187574346, LumiSection 161 at 21-Dec-2017 20:02:01.516 CET
+21-Dec-2017 20:02:05 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_103.root
+21-Dec-2017 20:02:05 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_104.root
+[2017-12-21 20:02:05.534910 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_104.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:02:05 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_104.root.
+%MSG
+[2017-12-21 20:02:05.535768 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_104.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:02:05 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_104.root?tried=.
+%MSG
+21-Dec-2017 20:02:05 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_104.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:02:17 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:02:17 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_104.root
+Begin processing the 40001st record. Run 259163, Event 189614753, LumiSection 162 at 21-Dec-2017 20:02:24.619 CET
+Begin processing the 41001st record. Run 259163, Event 195314719, LumiSection 167 at 21-Dec-2017 20:02:27.557 CET
+Begin processing the 42001st record. Run 259163, Event 192006238, LumiSection 164 at 21-Dec-2017 20:02:30.939 CET
+21-Dec-2017 20:02:32 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_104.root
+21-Dec-2017 20:02:32 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_105.root
+[2017-12-21 20:02:33.343566 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_105.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:02:33 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_105.root.
+%MSG
+[2017-12-21 20:02:33.348390 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_105.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:02:33 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_105.root?tried=.
+%MSG
+21-Dec-2017 20:02:33 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_105.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:02:45 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:02:45 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_105.root
+Begin processing the 43001st record. Run 259163, Event 192066513, LumiSection 165 at 21-Dec-2017 20:02:52.029 CET
+Begin processing the 44001st record. Run 259163, Event 197937925, LumiSection 170 at 21-Dec-2017 20:02:55.731 CET
+Begin processing the 45001st record. Run 259163, Event 196217260, LumiSection 168 at 21-Dec-2017 20:02:59.607 CET
+21-Dec-2017 20:03:02 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_105.root
+21-Dec-2017 20:03:02 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_106.root
+[2017-12-21 20:03:02.228269 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_106.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:03:02 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_106.root.
+%MSG
+[2017-12-21 20:03:02.229360 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_106.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:03:02 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_106.root?tried=.
+%MSG
+21-Dec-2017 20:03:02 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_106.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:03:13 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:03:13 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_106.root
+Begin processing the 46001st record. Run 259163, Event 199351881, LumiSection 171 at 21-Dec-2017 20:03:21.221 CET
+Begin processing the 47001st record. Run 259163, Event 200826828, LumiSection 172 at 21-Dec-2017 20:03:25.442 CET
+Begin processing the 48001st record. Run 259163, Event 201612279, LumiSection 173 at 21-Dec-2017 20:03:29.230 CET
+21-Dec-2017 20:03:30 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_106.root
+21-Dec-2017 20:03:30 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_107.root
+[2017-12-21 20:03:30.781568 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_107.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:03:30 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_107.root.
+%MSG
+[2017-12-21 20:03:30.782443 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_107.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:03:30 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_107.root?tried=.
+%MSG
+21-Dec-2017 20:03:30 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_107.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:03:42 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:03:42 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_107.root
+Begin processing the 49001st record. Run 259163, Event 197145479, LumiSection 169 at 21-Dec-2017 20:03:48.883 CET
+Begin processing the 50001st record. Run 259163, Event 202802709, LumiSection 174 at 21-Dec-2017 20:03:53.099 CET
+Begin processing the 51001st record. Run 259163, Event 211681684, LumiSection 181 at 21-Dec-2017 20:03:56.882 CET
+21-Dec-2017 20:03:58 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_107.root
+21-Dec-2017 20:03:58 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_108.root
+[2017-12-21 20:03:58.270855 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_108.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:03:58 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_108.root.
+%MSG
+[2017-12-21 20:03:58.271723 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_108.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:03:58 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_108.root?tried=.
+%MSG
+21-Dec-2017 20:03:58 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_108.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:04:09 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:04:09 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_108.root
+Begin processing the 52001st record. Run 259163, Event 212807294, LumiSection 182 at 21-Dec-2017 20:04:16.252 CET
+Begin processing the 53001st record. Run 259163, Event 204047633, LumiSection 175 at 21-Dec-2017 20:04:21.450 CET
+Begin processing the 54001st record. Run 259163, Event 205084860, LumiSection 176 at 21-Dec-2017 20:04:26.414 CET
+21-Dec-2017 20:04:27 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_108.root
+21-Dec-2017 20:04:27 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_109.root
+[2017-12-21 20:04:27.812453 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_109.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:04:27 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_109.root.
+%MSG
+[2017-12-21 20:04:27.814245 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_109.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:04:27 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_109.root?tried=.
+%MSG
+21-Dec-2017 20:04:27 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_109.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:04:39 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:04:39 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_109.root
+Begin processing the 55001st record. Run 259163, Event 206997040, LumiSection 177 at 21-Dec-2017 20:04:46.811 CET
+Begin processing the 56001st record. Run 259163, Event 208342731, LumiSection 178 at 21-Dec-2017 20:04:50.602 CET
+Begin processing the 57001st record. Run 259163, Event 209221018, LumiSection 179 at 21-Dec-2017 20:04:54.671 CET
+21-Dec-2017 20:04:55 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_109.root
+21-Dec-2017 20:04:55 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_11.root
+[2017-12-21 20:04:55.590893 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_11.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:04:55 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_11.root.
+%MSG
+[2017-12-21 20:04:55.591619 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_11.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:04:55 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_11.root?tried=.
+%MSG
+21-Dec-2017 20:04:55 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_11.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:05:07 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:05:08 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_11.root
+Begin processing the 58001st record. Run 259158, Event 2208671, LumiSection 2 at 21-Dec-2017 20:05:16.911 CET
+Begin processing the 59001st record. Run 259158, Event 2726548, LumiSection 3 at 21-Dec-2017 20:05:20.613 CET
+Begin processing the 60001st record. Run 259159, Event 1052500, LumiSection 1 at 21-Dec-2017 20:05:24.570 CET
+21-Dec-2017 20:05:27 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_11.root
+21-Dec-2017 20:05:27 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_110.root
+[2017-12-21 20:05:27.729345 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_110.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:05:27 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_110.root.
+%MSG
+[2017-12-21 20:05:27.730350 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_110.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:05:27 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_110.root?tried=.
+%MSG
+21-Dec-2017 20:05:27 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_110.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:05:39 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:05:39 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_110.root
+Begin processing the 61001st record. Run 259163, Event 210603934, LumiSection 180 at 21-Dec-2017 20:05:46.257 CET
+Begin processing the 62001st record. Run 259163, Event 213624748, LumiSection 183 at 21-Dec-2017 20:05:50.494 CET
+Begin processing the 63001st record. Run 259163, Event 215928636, LumiSection 185 at 21-Dec-2017 20:05:54.680 CET
+21-Dec-2017 20:05:56 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_110.root
+21-Dec-2017 20:05:56 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_111.root
+[2017-12-21 20:05:56.822191 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_111.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:05:56 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_111.root.
+%MSG
+[2017-12-21 20:05:56.823193 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_111.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:05:56 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_111.root?tried=.
+%MSG
+21-Dec-2017 20:05:56 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_111.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:06:09 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:06:09 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_111.root
+Begin processing the 64001st record. Run 259163, Event 215011349, LumiSection 184 at 21-Dec-2017 20:06:15.597 CET
+Begin processing the 65001st record. Run 259163, Event 217585295, LumiSection 186 at 21-Dec-2017 20:06:19.586 CET
+Begin processing the 66001st record. Run 259163, Event 227591379, LumiSection 195 at 21-Dec-2017 20:06:23.637 CET
+21-Dec-2017 20:06:25 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_111.root
+21-Dec-2017 20:06:25 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_112.root
+[2017-12-21 20:06:25.355823 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_112.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:06:25 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_112.root.
+%MSG
+[2017-12-21 20:06:25.358753 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_112.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:06:25 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_112.root?tried=.
+%MSG
+21-Dec-2017 20:06:25 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_112.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:06:35 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:06:35 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_112.root
+Begin processing the 67001st record. Run 259163, Event 233204348, LumiSection 200 at 21-Dec-2017 20:06:42.001 CET
+Begin processing the 68001st record. Run 259163, Event 218055997, LumiSection 187 at 21-Dec-2017 20:06:45.613 CET
+Begin processing the 69001st record. Run 259163, Event 225669788, LumiSection 193 at 21-Dec-2017 20:06:49.798 CET
+21-Dec-2017 20:06:50 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_112.root
+21-Dec-2017 20:06:50 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_113.root
+[2017-12-21 20:06:50.984420 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_113.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:06:50 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_113.root.
+%MSG
+[2017-12-21 20:06:50.988916 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_113.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:06:50 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_113.root?tried=.
+%MSG
+21-Dec-2017 20:06:50 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_113.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:07:01 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:07:02 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_113.root
+Begin processing the 70001st record. Run 259163, Event 235094849, LumiSection 201 at 21-Dec-2017 20:07:11.031 CET
+Begin processing the 71001st record. Run 259163, Event 218944466, LumiSection 188 at 21-Dec-2017 20:07:15.460 CET
+Begin processing the 72001st record. Run 259163, Event 220139076, LumiSection 189 at 21-Dec-2017 20:07:19.639 CET
+21-Dec-2017 20:07:21 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_113.root
+21-Dec-2017 20:07:21 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_114.root
+[2017-12-21 20:07:21.065581 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_114.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:07:21 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_114.root.
+%MSG
+[2017-12-21 20:07:21.066672 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_114.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:07:21 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_114.root?tried=.
+%MSG
+21-Dec-2017 20:07:21 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_114.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:07:31 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:07:31 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_114.root
+Begin processing the 73001st record. Run 259163, Event 222208081, LumiSection 190 at 21-Dec-2017 20:07:38.466 CET
+Begin processing the 74001st record. Run 259163, Event 223118421, LumiSection 191 at 21-Dec-2017 20:07:42.365 CET
+Begin processing the 75001st record. Run 259163, Event 223709888, LumiSection 192 at 21-Dec-2017 20:07:46.008 CET
+21-Dec-2017 20:07:47 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_114.root
+21-Dec-2017 20:07:47 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_115.root
+[2017-12-21 20:07:47.115992 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_115.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:07:47 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_115.root.
+%MSG
+[2017-12-21 20:07:47.116976 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_115.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:07:47 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_115.root?tried=.
+%MSG
+21-Dec-2017 20:07:47 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_115.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:07:57 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:07:57 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_115.root
+Begin processing the 76001st record. Run 259163, Event 226171857, LumiSection 194 at 21-Dec-2017 20:08:04.902 CET
+Begin processing the 77001st record. Run 259163, Event 228227259, LumiSection 196 at 21-Dec-2017 20:08:08.772 CET
+Begin processing the 78001st record. Run 259163, Event 230274989, LumiSection 197 at 21-Dec-2017 20:08:13.233 CET
+21-Dec-2017 20:08:14 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_115.root
+21-Dec-2017 20:08:14 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_116.root
+[2017-12-21 20:08:14.197144 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_116.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:08:14 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_116.root.
+%MSG
+[2017-12-21 20:08:14.198323 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_116.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:08:14 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_116.root?tried=.
+%MSG
+21-Dec-2017 20:08:14 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_116.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:08:24 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:08:24 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_116.root
+Begin processing the 79001st record. Run 259163, Event 230804425, LumiSection 198 at 21-Dec-2017 20:08:33.235 CET
+Begin processing the 80001st record. Run 259163, Event 231723124, LumiSection 199 at 21-Dec-2017 20:08:36.969 CET
+Begin processing the 81001st record. Run 259163, Event 235298074, LumiSection 202 at 21-Dec-2017 20:08:40.623 CET
+21-Dec-2017 20:08:41 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_116.root
+21-Dec-2017 20:08:41 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_117.root
+[2017-12-21 20:08:41.422747 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_117.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:08:41 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_117.root.
+%MSG
+[2017-12-21 20:08:41.423575 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_117.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:08:41 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_117.root?tried=.
+%MSG
+21-Dec-2017 20:08:41 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_117.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:08:52 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:08:52 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_117.root
+Begin processing the 82001st record. Run 259163, Event 237907176, LumiSection 204 at 21-Dec-2017 20:09:00.405 CET
+Begin processing the 83001st record. Run 259163, Event 237138169, LumiSection 203 at 21-Dec-2017 20:09:03.937 CET
+Begin processing the 84001st record. Run 259163, Event 239953251, LumiSection 206 at 21-Dec-2017 20:09:07.649 CET
+21-Dec-2017 20:09:08 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_117.root
+21-Dec-2017 20:09:08 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_118.root
+[2017-12-21 20:09:08.089390 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_118.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:09:08 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_118.root.
+%MSG
+[2017-12-21 20:09:08.092816 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_118.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:09:08 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_118.root?tried=.
+%MSG
+21-Dec-2017 20:09:08 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_118.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:09:18 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:09:18 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_118.root
+Begin processing the 85001st record. Run 259163, Event 241704399, LumiSection 207 at 21-Dec-2017 20:09:26.014 CET
+Begin processing the 86001st record. Run 259163, Event 252438182, LumiSection 216 at 21-Dec-2017 20:09:30.019 CET
+21-Dec-2017 20:09:34 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_118.root
+21-Dec-2017 20:09:34 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_119.root
+[2017-12-21 20:09:34.835916 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_119.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:09:34 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_119.root.
+%MSG
+[2017-12-21 20:09:34.837871 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_119.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:09:34 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_119.root?tried=.
+%MSG
+21-Dec-2017 20:09:34 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_119.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:09:45 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:09:45 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_119.root
+Begin processing the 87001st record. Run 259163, Event 242581152, LumiSection 208 at 21-Dec-2017 20:09:49.107 CET
+Begin processing the 88001st record. Run 259163, Event 244409731, LumiSection 209 at 21-Dec-2017 20:09:55.006 CET
+Begin processing the 89001st record. Run 259163, Event 245370581, LumiSection 210 at 21-Dec-2017 20:09:58.941 CET
+21-Dec-2017 20:10:02 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_119.root
+21-Dec-2017 20:10:02 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_12.root
+[2017-12-21 20:10:03.000358 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_12.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:10:03 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_12.root.
+%MSG
+[2017-12-21 20:10:03.004655 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_12.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:10:03 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_12.root?tried=.
+%MSG
+21-Dec-2017 20:10:03 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_12.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:10:13 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:10:13 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_12.root
+Begin processing the 90001st record. Run 259159, Event 1494015, LumiSection 2 at 21-Dec-2017 20:10:17.198 CET
+Begin processing the 91001st record. Run 259159, Event 2225147, LumiSection 2 at 21-Dec-2017 20:10:23.057 CET
+Begin processing the 92001st record. Run 259159, Event 19690730, LumiSection 16 at 21-Dec-2017 20:10:27.209 CET
+Begin processing the 93001st record. Run 259159, Event 3578364, LumiSection 3 at 21-Dec-2017 20:10:31.437 CET
+21-Dec-2017 20:10:33 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_12.root
+21-Dec-2017 20:10:33 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_787.root
+[2017-12-21 20:10:33.667076 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_787.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:10:33 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_787.root.
+%MSG
+[2017-12-21 20:10:33.669076 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_787.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:10:33 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_787.root?tried=.
+%MSG
+21-Dec-2017 20:10:33 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_787.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:10:44 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:10:44 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_787.root
+21-Dec-2017 20:10:48 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_787.root
+21-Dec-2017 20:10:48 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_788.root
+[2017-12-21 20:10:48.834913 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_788.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:10:48 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_788.root.
+%MSG
+[2017-12-21 20:10:48.835866 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_788.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:10:48 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_788.root?tried=.
+%MSG
+21-Dec-2017 20:10:48 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_788.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:10:59 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:10:59 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_788.root
+21-Dec-2017 20:11:04 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_788.root
+21-Dec-2017 20:11:04 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_789.root
+[2017-12-21 20:11:04.353668 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_789.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:11:04 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_789.root.
+%MSG
+[2017-12-21 20:11:04.354436 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_789.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:11:04 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_789.root?tried=.
+%MSG
+21-Dec-2017 20:11:04 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_789.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:11:15 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:11:15 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_789.root
+Begin processing the 94001st record. Run 259385, Event 758494809, LumiSection 440 at 21-Dec-2017 20:11:19.761 CET
+21-Dec-2017 20:11:19 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_789.root
+21-Dec-2017 20:11:19 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_79.root
+[2017-12-21 20:11:19.779975 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_79.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:11:19 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_79.root.
+%MSG
+[2017-12-21 20:11:19.781039 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_79.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:11:19 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_79.root?tried=.
+%MSG
+21-Dec-2017 20:11:19 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_79.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:11:30 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:11:30 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_79.root
+Begin processing the 95001st record. Run 259163, Event 99147060, LumiSection 85 at 21-Dec-2017 20:11:39.148 CET
+Begin processing the 96001st record. Run 259163, Event 101351126, LumiSection 87 at 21-Dec-2017 20:11:42.623 CET
+Begin processing the 97001st record. Run 259163, Event 101387582, LumiSection 87 at 21-Dec-2017 20:11:46.874 CET
+21-Dec-2017 20:11:46 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_79.root
+21-Dec-2017 20:11:46 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_790.root
+[2017-12-21 20:11:46.940700 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_790.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:11:46 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_790.root.
+%MSG
+[2017-12-21 20:11:46.941772 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_790.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:11:46 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_790.root?tried=.
+%MSG
+21-Dec-2017 20:11:46 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_790.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:11:57 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:11:58 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_790.root
+21-Dec-2017 20:12:01 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_790.root
+21-Dec-2017 20:12:01 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_791.root
+[2017-12-21 20:12:01.498168 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_791.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:12:01 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_791.root.
+%MSG
+[2017-12-21 20:12:01.499083 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_791.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:12:01 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_791.root?tried=.
+%MSG
+21-Dec-2017 20:12:01 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_791.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:12:12 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:12:12 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_791.root
+21-Dec-2017 20:12:17 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_791.root
+21-Dec-2017 20:12:17 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_792.root
+[2017-12-21 20:12:17.420363 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_792.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:12:17 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_792.root.
+%MSG
+[2017-12-21 20:12:17.421206 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_792.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:12:17 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_792.root?tried=.
+%MSG
+21-Dec-2017 20:12:17 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_792.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:12:28 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:12:28 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_792.root
+21-Dec-2017 20:12:33 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_792.root
+21-Dec-2017 20:12:33 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_793.root
+[2017-12-21 20:12:33.245794 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_793.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:12:33 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_793.root.
+%MSG
+[2017-12-21 20:12:33.246648 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_793.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:12:33 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_793.root?tried=.
+%MSG
+21-Dec-2017 20:12:33 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_793.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:12:44 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:12:44 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_793.root
+21-Dec-2017 20:12:48 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_793.root
+21-Dec-2017 20:12:48 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_794.root
+[2017-12-21 20:12:48.804318 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_794.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:12:48 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_794.root.
+%MSG
+[2017-12-21 20:12:48.805195 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_794.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:12:48 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_794.root?tried=.
+%MSG
+21-Dec-2017 20:12:48 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_794.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:12:59 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:12:59 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_794.root
+21-Dec-2017 20:13:03 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_794.root
+21-Dec-2017 20:13:03 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_795.root
+[2017-12-21 20:13:03.923677 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_795.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:13:03 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_795.root.
+%MSG
+[2017-12-21 20:13:03.924579 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_795.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:13:03 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_795.root?tried=.
+%MSG
+21-Dec-2017 20:13:03 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_795.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:13:14 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:13:14 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_795.root
+Begin processing the 98001st record. Run 259388, Event 25529412, LumiSection 58 at 21-Dec-2017 20:13:18.214 CET
+21-Dec-2017 20:13:18 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_795.root
+21-Dec-2017 20:13:18 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_796.root
+[2017-12-21 20:13:18.552919 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_796.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:13:18 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_796.root.
+%MSG
+[2017-12-21 20:13:18.553905 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_796.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:13:18 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_796.root?tried=.
+%MSG
+21-Dec-2017 20:13:18 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_796.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:13:29 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:13:29 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_796.root
+21-Dec-2017 20:13:34 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_796.root
+21-Dec-2017 20:13:34 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_797.root
+[2017-12-21 20:13:34.681868 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_797.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:13:34 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_797.root.
+%MSG
+[2017-12-21 20:13:34.682718 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_797.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:13:34 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_797.root?tried=.
+%MSG
+21-Dec-2017 20:13:34 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_797.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:13:45 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:13:45 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_797.root
+21-Dec-2017 20:13:50 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_797.root
+21-Dec-2017 20:13:50 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_798.root
+[2017-12-21 20:13:50.085305 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_798.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:13:50 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_798.root.
+%MSG
+[2017-12-21 20:13:50.086409 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_798.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:13:50 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_798.root?tried=.
+%MSG
+21-Dec-2017 20:13:50 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_798.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:14:00 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:14:00 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_798.root
+21-Dec-2017 20:14:04 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_798.root
+21-Dec-2017 20:14:04 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_799.root
+[2017-12-21 20:14:04.891365 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_799.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:14:04 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_799.root.
+%MSG
+[2017-12-21 20:14:04.892104 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_799.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:14:04 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_799.root?tried=.
+%MSG
+21-Dec-2017 20:14:04 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_799.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:14:15 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:14:15 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_799.root
+21-Dec-2017 20:14:20 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_799.root
+21-Dec-2017 20:14:20 CET  Initiating request to open file root://eoscms.cern.ch//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_8.root
+[2017-12-21 20:14:20.030850 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_8.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:14:20 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_8.root.
+%MSG
+[2017-12-21 20:14:20.031658 +0100][Error  ][XRootD            ] [eoscms.cern.ch:1094] Handling error while processing kXR_open (file: /eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_8.root?tried=, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ): [ERROR] Error response.
+%MSG-w XrdAdaptorInternal:  file_open 21-Dec-2017 20:14:20 CET PostProcessEvent
+Failed to open file at URL root://eoscms.cern.ch:1094//eos/cms/store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_8.root?tried=.
+%MSG
+21-Dec-2017 20:14:20 CET  Fallback request to file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_8.root
+%MSG-w XrdAdaptor:  file_open 21-Dec-2017 20:14:30 CET PostProcessEvent
+Data is served from cmsaf.mit.edu instead of original site T2_FR_GRIF_LLR
+%MSG
+21-Dec-2017 20:14:30 CET  Successfully opened file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_8.root
+Begin processing the 99001st record. Run 259157, Event 7978721, LumiSection 8 at 21-Dec-2017 20:14:36.023 CET
+21-Dec-2017 20:14:40 CET  Closed file root://xrootd-cms.infn.it//store/user/davidlw/L1MinimumBiasHF1/RecoSkim2015_2015DLowPU_ReTracking_v4/151109_223122/0000/pPb_HM_8.root
+ This is called at the end of the each job 
+ Now is the time for mixing the events 
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 100000 passed = 99690 failed = 310
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+TrigReport     1    0     100000      99690        310          0 p
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+
+TrigReport ---------- Modules in Path: p ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0     100000      99690        310          0 PAprimaryVertexFilterOnSkimData
+TrigReport     1    1      99690      99690          0          0 demo
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited   Executed     Passed     Failed      Error Name
+TrigReport     100000     100000      99690        310          0 PAprimaryVertexFilterOnSkimData
+TrigReport      99690      99690      99690          0          0 demo
+TrigReport     100000     100000     100000          0          0 TriggerResults
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport       event loop CPU/event = 0.004844
+TimeReport      event loop Real/event = 0.011713
+TimeReport     sum Streams Real/event = 0.005157
+TimeReport efficiency CPU/Real/thread = 0.413538
+
+TimeReport ---------- Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport   0.004704     0.004704  p
+TimeReport  per event     per exec  Name
+
+TimeReport -------End-Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport  per event     per exec  Name
+
+TimeReport ---------- Modules in Path: p ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000039     0.000039  PAprimaryVertexFilterOnSkimData
+TimeReport   0.003956     0.003969  demo
+TimeReport  per event    per visit  Name
+
+TimeReport ---------- Module Summary ---[Real sec]----
+TimeReport  per event     per exec    per visit  Name
+TimeReport   0.000030     0.000030     0.000030  TriggerResults
+TimeReport   0.000039     0.000039     0.000039  PAprimaryVertexFilterOnSkimData
+TimeReport   0.003956     0.003969     0.003969  demo
+TimeReport  per event     per exec    per visit  Name
+
+T---Report end!
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 XrdAdaptor           -w file_open                             44       44
+    2 XrdAdaptorInternal   -w file_open                             88       88
+    3 fileAction           -s file_close                            44       44
+    4 fileAction           -s file_open                            132      132
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    2 XrdAdaptorInternal   pre-events       pre-events       PostProcessEvent
+    3 fileAction           PostProcessEvent PostProcessEvent PostEndRun
+    4 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning               132                 132
+System                176                 176
