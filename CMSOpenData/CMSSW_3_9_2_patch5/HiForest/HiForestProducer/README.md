@@ -10,7 +10,9 @@ To use it please, do (example for accessing charged particles):
    
    The configuration file is here: "HiForest/HiForestProducer/hiforestanalyzer_Flow_cfg.py". 
   
-   It executes the C++ code above running the command "cmsRun". Then, do the following (before decide in the configuration file the number of events that will process):
+   It executes the C++ code above running the command "cmsRun". 
+
+   Then, do the following (before decide in the configuration file the number of events that will process, in this line <<process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(100) )>>):
    
    cd HiForest/HiForestProducer/
    

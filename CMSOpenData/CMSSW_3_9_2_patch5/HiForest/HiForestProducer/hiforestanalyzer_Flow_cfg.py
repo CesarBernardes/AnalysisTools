@@ -5,7 +5,7 @@ import FWCore.ParameterSet.Types as CfgTypes
 process = cms.Process('HiForestFlow')
 process.options = cms.untracked.PSet(SkipEvent = cms.untracked.vstring('ProductNotFound'))
 
-#Number of events: put '-1' unless testing
+#Number of events: put '-1' to process all the events in the files below
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(100) )
 
 #HiForest script init
