@@ -292,7 +292,7 @@ void AnalyzerFlow::analyze(const edm::Event& iEvent, const edm::EventSetup& iSet
        if(iter_tk->pt()<0.3)continue;
        if(fabs(iter_tk->eta())>2.4)continue;
        if(!iter_tk->quality(reco::TrackBase::highPurity))continue;
-       if(fabs(iter_tk->ptError())/iter_tk->pt()>0.1)continue;
+       if(fabs(iter_tk->ptError())/iter_tk->pt()>0.05)continue;
        if(fabs(aux_tk_dz_vtx/aux_tk_dzError_vtx)>3)continue;
        if(fabs(aux_tk_dxy_vtx/aux_tk_dxyError_vtx)>3)continue;
        //if(hit_pattern.pixelLayersWithMeasurement()==0)continue;
