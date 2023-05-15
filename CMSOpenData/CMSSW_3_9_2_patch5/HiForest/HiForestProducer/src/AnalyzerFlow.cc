@@ -70,11 +70,6 @@ class AnalyzerFlow : public edm::EDAnalyzer {
       int SelectEvent(const edm::Event& iEvent);
       int SelectPrimaryVertex(const edm::Handle<reco::VertexCollection>& primVertex);
       void InitBranchVars();
-      //bool splitcomb(TLorentzVector &vec1,TLorentzVector &vec2);
-      //Double_t GetQ( const TLorentzVector &p1, const TLorentzVector &p2 );
-      //const Double_t CoulombWpm( const Double_t& q);
-      //const Double_t CoulombW( const Double_t& q);
-      //void MixEvents(float hfsum_min, float hfsum_max, int nEvt_to_mix);
 
       // input tags
       edm::InputTag _inputTagPrimaryVertex;
@@ -103,10 +98,6 @@ class AnalyzerFlow : public edm::EDAnalyzer {
       int _pvNDOF;
       float _pvZ;
       float _pvRho;
-      /*std::vector<double> ev_vtx_z_vec;
-      std::vector< std::vector<TLorentzVector> > ev_GoodTrackFourVector_vec;
-      std::vector< std::vector<int> > ev_GoodTrackCharge_vec;
-      std::vector<float> ev_hfsum_vec;*/
       // centrality
       float _HFsumETPlus;
       float _HFsumETMinus;
@@ -121,17 +112,8 @@ class AnalyzerFlow : public edm::EDAnalyzer {
       float _trkDzSig[_maxNtrk];
       float _trkDxySig[_maxNtrk];
       float _trkNpixLayers[_maxNtrk];
-      ///qinv
-      /*static const int _maxNpair = _maxNtrk*_maxNtrk;
-      int _NSSpair;
-      int _NOSpair;
-      int _NpairMix;
-      float _qinvSigSS[_maxNpair];
-      float _coulombWSS[_maxNpair];
-      float _qinvSigOS[_maxNpair];
-      float _coulombWOS[_maxNpair];
-      float _qinvMixSS_OS[_maxNpair];*/ //here we will mix with just one random event to have similar stats as in the Signal sample
-
+      float _trkNhits[_maxNtrk];
+      float _trkChi2[_maxNtrk];
 };
 
 
@@ -183,16 +165,8 @@ AnalyzerFlow::AnalyzerFlow(const edm::ParameterSet& iConfig)
     _tree->Branch("trkDzSig", _trkDzSig, "trkDzSig[Ntrk]/F");
     _tree->Branch("trkDxySig", _trkDxySig, "trkDxySig[Ntrk]/F");
     _tree->Branch("trkNpixLayers", _trkNpixLayers, "trkNpixLayers[Ntrk]/F");
-    ///qinv
-    /*_tree->Branch("NSSpair", &_NSSpair, "NSSpair/I");
-    _tree->Branch("NOSpair", &_NOSpair, "NOSpair/I");  
-    _tree->Branch("NpairMix", &_NpairMix, "NpairMix/I");
-    _tree->Branch("qinvSigSS", _qinvSigSS, "qinvSigSS[NSSpair]/F");
-    _tree->Branch("coulombWSS", _coulombWSS, "coulombWSS[NSSpair]/F");
-    _tree->Branch("qinvSigOS", _qinvSigOS, "qinvSigOS[NOSpair]/F");
-    _tree->Branch("coulombWOS", _coulombWOS, "coulombWOS[NOSpair]/F");
-    _tree->Branch("qinvMixSS_OS", _qinvMixSS_OS, "qinvMixSS_OS[NpairMix]/F");
-     */
+    _tree->Branch("trkNhits", _trkNhits, "trkNhits[Ntrk]/F");
+    _tree->Branch("trkChi2", _trkChi2, "trkChi2[Ntrk]/F");
   }
 
 }
@@ -223,8 +197,6 @@ void AnalyzerFlow::InitBranchVars()
   _HFsumET=-999.9;
 
   _Ntrk = 0;
-  //_NSSpair = 0;
-  //_NOSpair = 0;
 
 }
 
@@ -303,10 +275,6 @@ void AnalyzerFlow::analyze(const edm::Event& iEvent, const edm::EventSetup& iSet
     // tracks
     iEvent.getByLabel(_inputTagTrack, tracks);
 
-    ///vectors to compute Qinv in the same event
-    //std::vector<TLorentzVector> GoodTrackFourVector;
-    //std::vector<int> GoodTrackCharge;
-
     double vtx_x = (double)primVertex->begin()->position().x(); 
     double vtx_y = (double)primVertex->begin()->position().y();
     double vtx_z = (double)primVertex->begin()->position().z();
@@ -327,12 +295,9 @@ void AnalyzerFlow::analyze(const edm::Event& iEvent, const edm::EventSetup& iSet
        if(fabs(iter_tk->ptError())/iter_tk->pt()>0.1)continue;
        if(fabs(aux_tk_dz_vtx/aux_tk_dzError_vtx)>3)continue;
        if(fabs(aux_tk_dxy_vtx/aux_tk_dxyError_vtx)>3)continue;
-       if(hit_pattern.pixelLayersWithMeasurement()==0)continue;
-
-       /*TLorentzVector pvector;
-       pvector.SetXYZM(iter_tk->px(),iter_tk->py(),iter_tk->pz(),0.1396);
-       GoodTrackFourVector.push_back(pvector);
-       GoodTrackCharge.push_back(iter_tk->charge());*/
+       //if(hit_pattern.pixelLayersWithMeasurement()==0)continue;
+       if(iter_tk->numberOfValidHits()<13)continue;
+       if(iter_tk->normalizedChi2()>0.15*iter_tk->numberOfValidHits())continue;
 
        _trkPt[_Ntrk] = iter_tk->pt();
        _trkEta[_Ntrk] = iter_tk->eta(); 
@@ -341,32 +306,12 @@ void AnalyzerFlow::analyze(const edm::Event& iEvent, const edm::EventSetup& iSet
        _trkDzSig[_Ntrk] = aux_tk_dz_vtx/aux_tk_dzError_vtx;
        _trkDxySig[_Ntrk] = aux_tk_dxy_vtx/aux_tk_dxyError_vtx;
        _trkNpixLayers[_Ntrk] = hit_pattern.pixelLayersWithMeasurement();
+       _trkNhits[_Ntrk] = iter_tk->numberOfValidHits();
+       _trkChi2[_Ntrk] = iter_tk->normalizedChi2(); 
 
        _Ntrk++;
     } 
 
-    /*if(GoodTrackFourVector.size()<2)return;
-    for(unsigned int itk1=0; itk1<GoodTrackFourVector.size();itk1++){
-       for(unsigned int itk2=itk1+1; itk2<GoodTrackFourVector.size();itk2++){
-          if(splitcomb(GoodTrackFourVector[itk1],  GoodTrackFourVector[itk2])){continue;}
-          Double_t q = GetQ(GoodTrackFourVector[itk1], GoodTrackFourVector[itk2]);
-	  if(q>1.0)continue;//to reduce size of trees
-          if(GoodTrackCharge[itk1]*GoodTrackCharge[itk2]>0){ //same charge
-             _qinvSigSS[_NSSpair] = q;
-	     _coulombWSS[_NSSpair] = CoulombW(q);
-	     _NSSpair++;
-	  }else{ //oposite charge
-	     _qinvSigOS[_NOSpair] = q;
-             _coulombWOS[_NOSpair] = CoulombWpm(q);	     
-	     _NOSpair++;
-	  }      
-       }	       
-    }	     
-
-    ev_vtx_z_vec.push_back(vtx_z);
-    ev_GoodTrackFourVector_vec.push_back(GoodTrackFourVector);
-    ev_GoodTrackCharge_vec.push_back(GoodTrackCharge);
-    ev_hfsum_vec.push_back(_HFsumET);*/
   }
   // fill event info
   SelectEvent(iEvent);
@@ -374,51 +319,6 @@ void AnalyzerFlow::analyze(const edm::Event& iEvent, const edm::EventSetup& iSet
   _tree->Fill();
   _neventsSelected++;
 }
-
-/*
-bool AnalyzerFlow::splitcomb(TLorentzVector &vec1,TLorentzVector &vec2){
-   bool issplit=false;
-   Double_t cosa = TMath::Abs(vec1.Px()*vec2.Px() + vec1.Py()*vec2.Py() + vec1.Pz()*vec2.Pz())/(vec1.P()*vec2.P());
-   Double_t deltapt = TMath::Abs(vec1.Pt() - vec2.Pt());
-   if ( (cosa >0.99996) && (deltapt < 0.04) ) { issplit = true;}
-   //std::cout << "cosa: " << cosa << " dpt: " << deltapt << " is split: " << issplit << std::endl;
-   return issplit;
-}
-
-Double_t AnalyzerFlow::GetQ(const TLorentzVector &p1, const TLorentzVector &p2){
-   TLorentzVector Sum4V = p1+p2;
-   Double_t q = Sum4V.Mag2() - 4*0.1396*0.1396;
-   //  std::cout<<(  q>0 ?  TMath::Sqrt(q) : -TMath::Sqrt(-q)  ) <<std::endl;
-   return (  q>0 ?  TMath::Sqrt(q) : -TMath::Sqrt(-q)  );
-}
-
-//return the weight factor due to Coloumb repulsion [Gamow] same charge
-const Double_t AnalyzerFlow::CoulombW(const Double_t& q){
-   const Double_t alpha=1./137.;
-   Double_t x=2*TMath::Pi()*(alpha*0.1396/q);
-   //return (TMath::Exp(x)-1.)/x; // OLD MATTIA's DEFINITION
-
-   //Double_t ws=scf*((exp(arg)-1)/arg-1)+1; // PAOLO's DEFINITION
-   Double_t weight = 1;//0.85; // TEMPORARY SET TO 0.85 * GAMOW FACTOR
-   //Double_t weight = 1.15; //for syst. +15%
-   //Double_t weight = 0.85; //for syst. -15%
-   return weight*( (TMath::Exp(x)-1.)/x -1 ) + 1;
-}
-
-//return the weight factor due to Coloumb attraction [Gamow] opposite charge
-const  Double_t AnalyzerFlow::CoulombWpm(const Double_t& q){
-   const Double_t alpha=1./137.;
-   Double_t x=2*TMath::Pi()*(alpha*0.1396/q);
-   // return (1.-TMath::Exp(-x))/x; // OLD MATTIA's DEFINITION
-
-   // Double_t wd=scf*((1-exp(-arg))/arg-1)+1; // PAOLO's DEFINITION
-   Double_t weight = 1;//0.85; // TEMPORARY SET TO 0.85 * GAMOW FACTOR
-   //Double_t weight = 1.15; //for syst. +15%
-   //Double_t weight = 0.85; //for syst. -15%
-   return weight*( (1.-TMath::Exp(-x))/x -1 ) + 1;
-}
-
-*/
 
 // ------------ method called when starting to processes a run  ------------
 void AnalyzerFlow::beginRun(edm::Run const& iRun, edm::EventSetup const& iSetup)
