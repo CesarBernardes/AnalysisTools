@@ -191,7 +191,9 @@ class AnalyzerHBT : public edm::EDAnalyzer {
       float _coulombWSS[_maxNpair];
       float _qinvSigOS[_maxNpair];
       float _coulombWOS[_maxNpair];
-      float _qinvMixSS_OS[_maxNpair]; //here we will mix with just one random event to have similar stats as in the Signal sample
+      float _qinvMixSS_OS[_maxNpair]; //for mixing
+      float _HFsumETMixP1[_maxNpair]; //for mixing (particle 1 in the pair) - to map correctly the qinv obtained in the mixing procedure
+      float _HFsumETMixP2[_maxNpair]; //for mixing (particle 2 in the pair) 
 
 };
 
@@ -276,6 +278,8 @@ AnalyzerHBT::AnalyzerHBT(const edm::ParameterSet& iConfig)
     _tree->Branch("qinvSigOS", _qinvSigOS, "qinvSigOS[NOSpair]/F");
     _tree->Branch("coulombWOS", _coulombWOS, "coulombWOS[NOSpair]/F");
     _tree->Branch("qinvMixSS_OS", _qinvMixSS_OS, "qinvMixSS_OS[NpairMix]/F");
+    _tree->Branch("HFsumETMixP1", _HFsumETMixP1, "HFsumETMixP1[NpairMix]/F");
+    _tree->Branch("HFsumETMixP2", _HFsumETMixP2, "HFsumETMixP2[NpairMix]/F");
 
   }
 
@@ -481,10 +485,12 @@ void AnalyzerHBT::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetu
        if(iter_tk->pt()<0.3)continue;
        if(fabs(iter_tk->eta())>2.4)continue;
        if(!iter_tk->quality(reco::TrackBase::highPurity))continue;
-       if(fabs(iter_tk->ptError())/iter_tk->pt()>0.1)continue;
+       if(fabs(iter_tk->ptError())/iter_tk->pt()>0.05)continue;
        if(fabs(aux_tk_dz_vtx/aux_tk_dzError_vtx)>3)continue;
        if(fabs(aux_tk_dxy_vtx/aux_tk_dxyError_vtx)>3)continue;
        if(hit_pattern.pixelLayersWithMeasurement()==0)continue;
+       if(iter_tk->numberOfValidHits()<13)continue;
+       if(iter_tk->normalizedChi2()>0.15*iter_tk->numberOfValidHits())continue;
 
        TLorentzVector pvector;
        pvector.SetXYZM(iter_tk->px(),iter_tk->py(),iter_tk->pz(),0.1396);
@@ -639,6 +645,8 @@ for(int nevt1=0; nevt1<aux_n_evts; nevt1++) {
             Double_t qmix = GetQ(ev_GoodTrackFourVectorTemp_nevt1_vec[imix], ev_GoodTrackFourVectorTemp_nevt_assoc_vec[iimix]);
 	    if(qmix>1.0)continue;//to reduce size of trees
             _qinvMixSS_OS[_NpairMix] = qmix;
+	    _HFsumETMixP1[_NpairMix] = ev_hfsum_vec[nevt1];
+            _HFsumETMixP2[_NpairMix] = ev_hfsum_vec[nevt_assoc];
 	    _NpairMix++;
             //Double_t qmixlong = GetQlong(ev_GoodTrackFourVectorTemp_nevt1_vec[imix],ev_GoodTrackFourVectorTemp_nevt_assoc_vec[iimix]);
             //Double_t qmixlongLCMS = GetQlongLCMS(ev_GoodTrackFourVectorTemp_nevt1_vec[imix],ev_GoodTrackFourVectorTemp_nevt_assoc_vec[iimix]);
