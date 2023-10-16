@@ -8,7 +8,7 @@ Double_t GetQ(ROOT::Math::PtEtaPhiMVector &p1, ROOT::Math::PtEtaPhiMVector &p2){
 
 void check_D0_femto_pPb(){
 
-TFile* f = new TFile("/eos/cms/store/group/phys_heavyions/caber/dataMB1_pPb.root");
+TFile* f = new TFile("/eos/cms/store/group/phys_heavyions/caber/dataMBAll_pPb.root");
 TFile* fout = new TFile("out.root","recreate");
 
 TTree* t = (TTree*) f->Get("d0ana_newreduced/VertexCompositeNtuple");
@@ -20,6 +20,8 @@ Float_t eta[1000];
 Float_t phi[1000];
 Float_t mass[1000];
 Float_t mva[1000];
+Float_t pTD1[1000];
+Float_t pTD2[1000];
 
 t->SetBranchAddress("candSize",&candSize);
 t->SetBranchAddress("pT",&pT);
@@ -28,7 +30,8 @@ t->SetBranchAddress("eta",&eta);
 t->SetBranchAddress("phi",&phi);
 t->SetBranchAddress("mass",&mass);
 t->SetBranchAddress("mva",&mva);
-
+t->SetBranchAddress("pTD1",&pTD1);
+t->SetBranchAddress("pTD2",&pTD2);
 
 //Histograms
 TH1F *h_NselD0perEvent = new TH1F("NselD0perEvent","Selected D0/D0bar per event",10,0.5,10.5);
@@ -76,6 +79,7 @@ for (Int_t i=0;i<nevents;i++) {
          if(std::abs(y[iii])>1) continue;
          if(mva[iii]<0.56) continue;
 	 if(!(1.84<mass[iii] && mass[iii]<1.89))continue;
+	 if(pTD1[ii]==pTD1[iii] || pTD2[ii]==pTD2[iii] || pTD1[ii]==pTD2[iii] || pTD2[ii]==pTD1[iii])continue;
          ROOT::Math::PtEtaPhiMVector aux2_D0FourVector;
 	 aux2_D0FourVector.SetM(1.865);
          aux2_D0FourVector.SetEta(eta[iii]);
