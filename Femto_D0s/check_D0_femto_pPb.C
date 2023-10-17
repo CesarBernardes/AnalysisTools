@@ -8,6 +8,9 @@ Double_t GetQ(ROOT::Math::PtEtaPhiMVector &p1, ROOT::Math::PtEtaPhiMVector &p2){
 
 void check_D0_femto_pPb(){
 
+///IMPORTANT: used to change BDT cut for selecting D0 mesons candidates, default from previous analyses is mva>0.56
+Double_t bdt_score_cut = 0.56; ///for testing reduced background, please, use 0.60, 0.65, 0.70.
+
 TFile* f = new TFile("/eos/cms/store/group/phys_heavyions/caber/dataMBAll_pPb.root");
 TFile* fout = new TFile("out.root","recreate");
 
@@ -64,7 +67,7 @@ for (Int_t i=0;i<nevents;i++) {
    //loop over all D0 candidates
    for (Int_t ii=0;ii<candSize;ii++) {
       if(std::abs(y[ii])>1) continue;
-      if(mva[ii]<0.56) continue;
+      if(mva[ii]<bdt_score_cut) continue;
       h_MASSselD0->Fill(mass[ii]);
       if(!(1.84<mass[ii] && mass[ii]<1.89))continue;
       aux_nD0s++; 
@@ -77,7 +80,7 @@ for (Int_t i=0;i<nevents;i++) {
       //to build qinv      
       for (Int_t iii=ii+1;iii<candSize;iii++) {
          if(std::abs(y[iii])>1) continue;
-         if(mva[iii]<0.56) continue;
+         if(mva[iii]<bdt_score_cut) continue;
 	 if(!(1.84<mass[iii] && mass[iii]<1.89))continue;
 	 if(pTD1[ii]==pTD1[iii] || pTD2[ii]==pTD2[iii] || pTD1[ii]==pTD2[iii] || pTD2[ii]==pTD1[iii])continue;
          ROOT::Math::PtEtaPhiMVector aux2_D0FourVector;
