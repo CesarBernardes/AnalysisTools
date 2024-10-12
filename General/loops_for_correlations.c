@@ -26,8 +26,8 @@ void one_loop(int imax, int jmax) { // Works well for different objects
 
 int timingtest() {
 
-	std::vector<int> vec(3, 0);
-	std::vector<int> vec2(5, 0);
+    std::vector<int> vec(3, 0);
+    std::vector<int> vec2(5, 0);
 
     auto start = std::chrono::high_resolution_clock::now();
     two_loops(vec.size(),vec2.size());
