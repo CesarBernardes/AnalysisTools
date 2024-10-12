@@ -16,9 +16,9 @@ git cms-addpkg RecoLocalTracker/SiStripZeroSuppression
 
 git cms-addpkg RecoLocalTracker/SiStripClusterizer
 
-###Get the files "SiStripCMNanalyzer.cc", "study_cmn.py" and "plot_CMN_dependence_on_LumiSec.C"
+###Get the files "SiStripCMNanalyzer.cc", "master_RECO.py" and "plot_CMN_dependence_on_LumiSec.C"
 
-###"study_cmn.py" is used to produce the Tree (please, use proper GT, etc..)
+###"master_RECO.py" is used to produce the Tree (please, use proper GT, etc..)
 
 ###"plot_CMN_dependence_on_LumiSec.C" is used to plot CMN vs LumiSec for a given FED (the one blocking the run)  
 
