@@ -250,7 +250,8 @@ SiStripHybridFormatAnalyzer::analyze(const edm::Event& e, const edm::EventSetup&
     edm::Handle<edm::DetSetVector<SiStripProcessedRawDigi> > moduleCM;
     e.getByToken(srcAPVCM_,moduleCM);	  
 
-   //------------------------------------------------------------------
+    //Second tentative
+    //------------------------------------------------------------------
     for (const auto & set2 : *moduleCM){
        //std::cout<<" det id  :  "<< set2.id <<std::endl;
        uint32_t detID = set2.id;   
