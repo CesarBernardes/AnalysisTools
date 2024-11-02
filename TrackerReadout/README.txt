@@ -31,8 +31,8 @@ git cms-addpkg RecoLocalTracker/SiStripClusterizer
 
 ssh -XY caber@lxplus9.cern.ch
 export SCRAM_ARCH=el9_amd64_gcc12
-cmsrel CMSSW_14_1_1
-cd CMSSW_14_1_1/src
+cmsrel CMSSW_14_1_4
+cd CMSSW_14_1_4/src
 cmsenv
 
 ### The code below calculates the CMN shifts per APV and also performs hybrid ZS emulation on VR data to calculate number of Bad APVs, for example
