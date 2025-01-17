@@ -18,5 +18,6 @@ PDs used are:
 /HIMinBiasUPC/HIRun2011-22Feb2012-v2/RECO (available in disk at T2_SPRACE)
 /HIMinBiasUPC/HIRun2011-22Feb2012-v1/RECO (on tape only)
 
-
+MC simulation (available in CMS Open Data):
+https://opendata.cern.ch/record/25001
 
