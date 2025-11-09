@@ -77,7 +77,7 @@ for(unsigned int i_FEDid=50; i_FEDid<=489; i_FEDid++){
 	 //if channel is too low you put a positive number indicating by how much it has to be raised
 	 //to that number you add the sigma value
 	 /////if(h_CMN[i_FEDid-50][i_FEDch][i_APVid]->GetMean()<127.){
-	 if(h_CMN[i_FEDid-50][i_FEDch][i_APVid]->GetMean()<(127.+2.*9.2)){ //checking 2-sigmas
+	 if(h_CMN[i_FEDid-50][i_FEDch][i_APVid]->GetMean()<(127.+2.*9.2)){ //checking 2-sigmas - the sigma should be decided by looking directly into the overall spread of the CMN distribution (look directly into the input tree)
 	    if(h_CMN[i_FEDid-50][i_FEDch][i_APVid]->GetMean()==0){}//not used APVs
             else{ 	    
 	       APV_CMNaverage_txt<<i_FEDid<<" "<<i_FEDch<<" "<<i_APVid<<" "<< (127 - h_CMN[i_FEDid-50][i_FEDch][i_APVid]->GetMean()) + 2.*9.2 <<endl; //checking 2-sigmas
