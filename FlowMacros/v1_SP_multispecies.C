@@ -115,9 +115,9 @@ void v1_SP_multispecies(const char* infile="/data/sdogra/ampt_helium/inPutFiles/
         if(fabs(eta)>3.0 && fabs(eta)<5.0)nchRef++;
         double phi = atan2(py,px);
 
-        // subevents — unchanged
-        if(eta > 2.4){ QxA += cos(phi); QyA += sin(phi); }
-        if(eta < -2.4){ QxB += cos(phi); QyB += sin(phi); }
+        // subevents 
+        if(eta > 3.0 && eta < 5.0){ QxA += pt*cos(phi); QyA += pt*sin(phi); }
+        if(eta < -3.0 && eta > -5.0){ QxB += pt*cos(phi); QyB += pt*sin(phi); }
 
         // analysis region
         if(fabs(eta)>2.4) continue;
